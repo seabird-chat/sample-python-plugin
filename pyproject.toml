@@ -6,13 +6,8 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-grpclib = "^0.4.1"
-betterproto = "^1.2.5"
+python-seabird = "^0.1.0"
 python-dotenv = "^0.15.0"
-
-[tool.poetry.dev-dependencies]
-grpcio-tools = "^1.33.2"
-betterproto = {extras = ["compiler"], version = "^1.2.5"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
